@@ -72,7 +72,7 @@ local Library do
     Library = {
         Theme =  { },
 
-        MenuKeybind = tostring(Enum.KeyCode.RightControl), 
+        MenuKeybind = tostring(Enum.KeyCode.Home), 
         Flags = { },
 
         Tween = {
@@ -219,7 +219,7 @@ local Library do
             ["Text"] = FromRGB(235, 235, 235),
             ["Text Stroke"] = FromRGB(0, 0, 0),
             ["Placeholder Text"] = FromRGB(185, 185, 185),
-            ["Accent"] = FromRGB(202, 243, 255)
+            ["Accent"] = FromRGB(124, 0, 235)
         }
     }
 
@@ -1324,7 +1324,7 @@ local Library do
                     BorderColor3 = FromRGB(0, 0, 0),
                     Size = UDim2New(0, 20, 1, 2),
                     BorderSizePixel = 0,
-                    BackgroundColor3 = FromRGB(202, 243, 255)
+                    BackgroundColor3 = FromRGB(124, 0, 235)
                 })  Items["Glow"]:AddToTheme({BackgroundColor3 = "Accent"})
 
                 Instances:Create("UIGradient", {
@@ -1341,7 +1341,7 @@ local Library do
                     BorderColor3 = FromRGB(0, 0, 0),
                     Size = UDim2New(0, 1, 1, 2),
                     BorderSizePixel = 0,
-                    BackgroundColor3 = FromRGB(202, 243, 255)
+                    BackgroundColor3 = FromRGB(124, 0, 235)
                 })  Items["Liner"]:AddToTheme({BackgroundColor3 = "Accent"})
 
                 Items["Page"] = Instances:Create("Frame", {
@@ -1857,7 +1857,7 @@ local Library do
                     BorderColor3 = FromRGB(0, 0, 0),
                     Size = UDim2New(0.5, 0, 1, 0),
                     BorderSizePixel = 0,
-                    BackgroundColor3 = FromRGB(202, 243, 255)
+                    BackgroundColor3 = FromRGB(124, 0, 235)
                 })  Items["Accent"]:AddToTheme({BackgroundColor3 = "Accent"})
 
                 Instances:Create("UIGradient", {
@@ -2157,7 +2157,7 @@ local Library do
                 Items["Icon"] = Instances:Create("ImageLabel", {
                     Parent = Items["RealDropdown"].Instance,
                     Name = "\0",
-                    ImageColor3 = FromRGB(202, 243, 255),
+                    ImageColor3 = FromRGB(124, 0, 235),
                     ScaleType = Enum.ScaleType.Fit,
                     BorderColor3 = FromRGB(0, 0, 0),
                     AnchorPoint = Vector2New(1, 0.5),
@@ -3763,7 +3763,7 @@ local Library do
                     Size = UDim2New(1, -16, 0, 20),
                     BorderSizePixel = 0,
                     TextSize = 9,
-                    BackgroundColor3 = FromRGB(202, 243, 255)
+                    BackgroundColor3 = FromRGB(124, 0, 235)
                 })  Items["Toggle"]:AddToTheme({BackgroundColor3 = "Accent", TextColor3 = "Text"})
 
                 Items["Toggle"]:TextBorder()
@@ -3789,7 +3789,7 @@ local Library do
                     Size = UDim2New(1, -16, 0, 20),
                     BorderSizePixel = 0,
                     TextSize = 9,
-                    BackgroundColor3 = FromRGB(202, 243, 255)
+                    BackgroundColor3 = FromRGB(124, 0, 235)
                 })  Items["Hold"]:AddToTheme({BackgroundColor3 = "Accent", TextColor3 = "Text"})
 
                 Items["Hold"]:TextBorder()
@@ -3807,7 +3807,7 @@ local Library do
                     Size = UDim2New(1, -16, 0, 20),
                     BorderSizePixel = 0,
                     TextSize = 9,
-                    BackgroundColor3 = FromRGB(202, 243, 255)
+                    BackgroundColor3 = FromRGB(124, 0, 235)
                 })  Items["Always"]:AddToTheme({BackgroundColor3 = "Accent", TextColor3 = "Text"})  
 
                 Items["Always"]:TextBorder()
@@ -4385,7 +4385,7 @@ local Library do
                     AutomaticCanvasSize = Enum.AutomaticSize.Y,
                     BorderSizePixel = 0,
                     CanvasSize = UDim2New(0, 0, 0, 0),
-                    ScrollBarImageColor3 = FromRGB(202, 243, 255),
+                    ScrollBarImageColor3 = FromRGB(124, 0, 235),
                     MidImage = "rbxassetid://136419474381965",
                     BorderColor3 = FromRGB(0, 0, 0),
                     ScrollBarThickness = 2,
@@ -4683,7 +4683,7 @@ local Library do
                 BorderColor3 = FromRGB(0, 0, 0),
                 Size = UDim2New(1, 10, 0, 1),
                 BorderSizePixel = 0,
-                BackgroundColor3 = FromRGB(202, 243, 255)
+                BackgroundColor3 = FromRGB(124, 0, 235)
             })  Items["Liner"]:AddToTheme({BackgroundColor3 = "Accent"})
         end
 
@@ -4754,7 +4754,7 @@ local Library do
                 BorderColor3 = FromRGB(0, 0, 0),
                 Size = UDim2New(1, 0, 0, 1),
                 BorderSizePixel = 0,
-                BackgroundColor3 = FromRGB(202, 243, 255)
+                BackgroundColor3 = FromRGB(124, 0, 235)
             })  Items["Liner"]:AddToTheme({BackgroundColor3 = "Accent"})
 
             Items["Content"] = Instances:Create("Frame", {
@@ -4893,7 +4893,7 @@ local Library do
                 BorderColor3 = FromRGB(0, 0, 0),
                 Size = UDim2New(1, 0, 0, 1),
                 BorderSizePixel = 0,
-                BackgroundColor3 = FromRGB(202, 243, 255)
+                BackgroundColor3 = FromRGB(124, 0, 235)
             })  Items["Liner"]:AddToTheme({BackgroundColor3 = "Accent"})
         end
 
@@ -5009,7 +5009,7 @@ local Library do
                 AutomaticCanvasSize = Enum.AutomaticSize.Y,
                 BorderSizePixel = 0,
                 CanvasSize = UDim2New(0, 0, 0, 0),
-                ScrollBarImageColor3 = FromRGB(202, 243, 255),
+                ScrollBarImageColor3 = FromRGB(124, 0, 235),
                 MidImage = "rbxassetid://123708228368098",
                 BorderColor3 = FromRGB(0, 0, 0),
                 ScrollBarThickness = 2,
@@ -5128,7 +5128,7 @@ local Library do
                 SubItems["Image"] = Instances:Create("ImageLabel", {
                     Parent = SubItems["Item"].Instance,
                     Name = "\0",
-                    ImageColor3 = FromRGB(202, 243, 255),
+                    ImageColor3 = FromRGB(124, 0, 235),
                     ScaleType = Enum.ScaleType.Fit,
                     BorderColor3 = FromRGB(0, 0, 0),
                     AnchorPoint = Vector2New(0.5, 0.5),
@@ -5198,7 +5198,7 @@ local Library do
             Items["Logo"] = Instances:Create("ImageLabel", {
                 Parent = Items["Side"].Instance,
                 Name = "\0",
-                ImageColor3 = FromRGB(202, 243, 255),
+                ImageColor3 = FromRGB(124, 0, 235),
                 ScaleType = Enum.ScaleType.Fit,
                 BorderColor3 = FromRGB(0, 0, 0),
                 AnchorPoint = Vector2New(0.5, 0),
@@ -5581,7 +5581,7 @@ local Library do
                 BorderColor3 = FromRGB(0, 0, 0),
                 Size = UDim2New(1, 0, 0, 1),
                 BorderSizePixel = 0,
-                BackgroundColor3 = FromRGB(202, 243, 255)
+                BackgroundColor3 = FromRGB(124, 0, 235)
             })  Items["Liner"]:AddToTheme({BackgroundColor3  = "Accent"})
 
             Items["Glow"] = Instances:Create("Frame", {
@@ -5590,7 +5590,7 @@ local Library do
                 BorderColor3 = FromRGB(0, 0, 0),
                 Size = UDim2New(1, 0, 0, 15),
                 BorderSizePixel = 0,
-                BackgroundColor3 = FromRGB(202, 243, 255)
+                BackgroundColor3 = FromRGB(124, 0, 235)
             })  Items["Glow"]:AddToTheme({BackgroundColor3  = "Accent"})
 
             Instances:Create("UIGradient", {
